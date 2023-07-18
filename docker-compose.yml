@@ -11,7 +11,6 @@ services:
 
         volumes: 
             - api_data:/docker_api
-            - ./uwsgi_log:/uwsgi_log
 
     nginx:
         container_name: nginx-container
@@ -23,7 +22,6 @@ services:
               
         volumes: 
             - api_data:/docker_api
-            - ./nginx_log:/var/log/nginx
         depends_on: 
             - api
 

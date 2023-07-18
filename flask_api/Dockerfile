@@ -1,7 +1,6 @@
 FROM python:3.7
 
-RUN mkdir /docker_api\
-&&  mkdir /uwsgi_log
+RUN mkdir /docker_api
 
 WORKDIR /docker_api
 
