@@ -1,4 +1,4 @@
-from flask import Flask,Blueprint
+from flask import Flask
 from app.api.api_test import api_test
 
 
